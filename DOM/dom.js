@@ -9,4 +9,11 @@ document.getElementsByClassName('title')[0].style.color = 'green'
 
 console.log("Header title is now: " + title);
 
+var items = document.getElementsByClassName('list-group-item');
+
+items[2].style.backgroundColor = 'darkgreen';
+for(var i=0; i<items.length; i++)
+{
+    items[i].style.fontWeight = 'bold';
+}
 
